@@ -29,9 +29,27 @@ twitter_username: nockab
 github_username:  nockab
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: null
 plugins:
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+
+include: [_pages]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
