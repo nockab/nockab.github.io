@@ -1,5 +1,13 @@
 ---
-is_post: false
 layout: default
+title: Contact
+permalink: /contact
 ---
-This is Contact page
+
+## Contact
+
+Get in touch!
+
+<form>
+  <!-- Form stuff -->
+</form>
