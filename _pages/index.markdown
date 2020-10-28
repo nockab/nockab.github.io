@@ -6,8 +6,9 @@ title: Home
 permalink: /
 ---
 
-# Hello, Jekyll {#hello-jekyll}
+# Personal Productivity {#personal-productivity}
 
-Check out these other pages:
+Collection of productivity methods, automations, tools, tips and tricks about how to get better in work, personal things, health and life in general.
 
+More about the author:
 - [About](/about/)
