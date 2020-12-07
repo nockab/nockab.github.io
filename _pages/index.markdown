@@ -8,7 +8,8 @@ permalink: /
 
 # Personal Productivity {#personal-productivity}
 
-Collection of productivity methods, automations, tools, tips and tricks about how to get better in work, personal things, health and life in general.
+Personal collection of productivity methods, automations, tools, tips and tricks about how to get better in work, personal things, health and life in general.
 
-More about the author:
-- [About](/about/)
+P.S. Sorry about the looks. Content comes first, design will come whenever I feel like it should.
+
+More about the author: [About](/about/)
