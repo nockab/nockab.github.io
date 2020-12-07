@@ -6,11 +6,7 @@
 
 body {
   font-size: 18px;
-  font-family: Arial;
-}
-
-nav li {
-  display: inline;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav a:link, nav a:visited {
@@ -19,22 +15,23 @@ nav a:link, nav a:visited {
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav a:hover, nav a:active {
   background-color: #4E4E50;
 }
 
-#container {
-  background: LightGray;
+.container {
+  min-width: 90%;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 6fr 1fr;
 }
 
-#active-page {
+.active-page {
   color: #FF000;
   background: #0000FF;
 }

@@ -5,9 +5,12 @@ permalink: /blog
 ---
 
 ## My Blog Posts
-
-<ul>
+<div class="post-grid">
   {% for post in site.posts %}
-  <li><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></li>
+  <div class="post-preview-block">
+
+  <h4><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></h4>
+  <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+  </div>
   {% endfor %}
-</ul>
+</div>

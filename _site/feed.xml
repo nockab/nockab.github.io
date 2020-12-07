@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-28T13:16:18+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Personal Productivity</title><subtitle>Small personal blog about productivity and automation tools with minimalistic approach</subtitle><entry><title type="html">Moving In</title><link href="http://localhost:4000/blog/update/moving-in/" rel="alternate" type="text/html" title="Moving In" /><published>2020-10-28T00:00:00+02:00</published><updated>2020-10-28T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/moving-in</id><content type="html" xml:base="http://localhost:4000/blog/update/moving-in/">&lt;p&gt;I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-07T16:05:31+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Personal Productivity</title><subtitle>Small personal blog about productivity and automation tools with minimalistic approach</subtitle><entry><title type="html">Coloring Walls</title><link href="http://localhost:4000/blog/update/coloring-walls/" rel="alternate" type="text/html" title="Coloring Walls" /><published>2020-12-07T00:00:00+02:00</published><updated>2020-12-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/coloring-walls</id><content type="html" xml:base="http://localhost:4000/blog/update/coloring-walls/">&lt;p&gt;This post is where I check my code and how it updates.&lt;/p&gt;
+
+&lt;h1 id=&quot;this-should-be-h1&quot;&gt;This should be h1&lt;/h1&gt;
+&lt;h2 id=&quot;and-this-one-is-h2&quot;&gt;And this one is h2&lt;/h2&gt;
+&lt;h3 id=&quot;then-h3&quot;&gt;Then h3&lt;/h3&gt;
+&lt;h4 id=&quot;h4-after-that&quot;&gt;h4 after that&lt;/h4&gt;
+&lt;h5 id=&quot;and-finally-h5&quot;&gt;And finally h5&lt;/h5&gt;
+
+&lt;p&gt;What else do we have? I’m planning to use &lt;em&gt;MarkDown&lt;/em&gt; and I &lt;strong&gt;hope&lt;/strong&gt; that this will be enough for me.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;So &lt;a href=&quot;http://google.com&quot;&gt;links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Images (wip)&lt;/li&gt;
+  &lt;li&gt;Tables:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(wip)&lt;/p&gt;
+
+&lt;h1 id=&quot;lipsum-bonanza&quot;&gt;Lipsum Bonanza&lt;/h1&gt;
+
+&lt;p&gt;Fugit nulla modi ut est nihil rem et. Quidem et iste laborum. Qui a quia dignissimos ut ipsam consectetur tempora. Et perferendis officia ipsam vel et id.&lt;/p&gt;
+
+&lt;p&gt;Consectetur nihil officiis molestiae eaque ut. Nobis reiciendis numquam rem ratione dolorem. Laboriosam voluptas omnis at non ad amet fugit harum. Suscipit ea impedit adipisci quos. Commodi dolores qui sunt voluptatem perspiciatis est commodi vel.&lt;/p&gt;
+
+&lt;p&gt;Sit magni nulla tempora. Pariatur temporibus numquam voluptatem distinctio. Quas iusto corporis voluptatem. Et quibusdam quia cum quo blanditiis. Velit at ad qui et animi.&lt;/p&gt;
+
+&lt;p&gt;Atque quos quia rem voluptatum repellendus. Qui quae et et eos suscipit autem rem. Vitae doloribus ex voluptate. Culpa eum qui molestiae optio repudiandae officia qui illum. Qui molestiae unde quos ea.&lt;/p&gt;
+
+&lt;p&gt;Nisi unde et numquam delectus quod modi. Aut iusto aut ratione eos impedit cupiditate rerum earum. Qui necessitatibus dolorem facilis reprehenderit sapiente accusamus. Tempora voluptates debitis similique fugit molestias reprehenderit aliquam.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">This post is where I check my code and how it updates.</summary></entry><entry><title type="html">Yearly Theme</title><link href="http://localhost:4000/blog/update/yearly-theme/" rel="alternate" type="text/html" title="Yearly Theme" /><published>2020-12-03T00:00:00+02:00</published><updated>2020-12-03T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/yearly-theme</id><content type="html" xml:base="http://localhost:4000/blog/update/yearly-theme/">&lt;p&gt;As the year ends it’s time to set up a sailing course for the next 12 months. I’ve become believer in yearly themes, not resolutions, after years of listening to Cortex podcast. Theme does make sense - it shows direction not destination, so you do what you do and try to keep the course.&lt;/p&gt;
+
+&lt;p&gt;My theme of the New Year will be…&lt;/p&gt;
+
+&lt;h1 id=&quot;2021---year-of-algoritmization&quot;&gt;2021 - Year of Algoritmization&lt;/h1&gt;
+&lt;h2 id=&quot;2020---year-of-focus&quot;&gt;2020 - Year of Focus&lt;/h2&gt;
+&lt;h3 id=&quot;2019---year-of-productivity&quot;&gt;2019 - Year of Productivity&lt;/h3&gt;
+
+&lt;p&gt;This comes from few things.&lt;/p&gt;
+
+&lt;p&gt;I’m finishing Yuval Noah Harari’s book &lt;em&gt;Homo Deus: A Brief History of Tomorrow&lt;/em&gt; and he provides interesting ideas about how we humans, just as every other animal or even plant are acting based on complicated algorithms that are developed inside of us by evolution.&lt;/p&gt;
+
+&lt;p&gt;I’d like to be consistent with my tasks. It could be work related or personal. Writing a procedure for tasks that aren’t done often may result in faster completion in the future. And what is even better - I may even automate it.&lt;/p&gt;
+
+&lt;p&gt;So… First of all I hope that 2021 will be better than 2020 for all of us.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">As the year ends it’s time to set up a sailing course for the next 12 months. I’ve become believer in yearly themes, not resolutions, after years of listening to Cortex podcast. Theme does make sense - it shows direction not destination, so you do what you do and try to keep the course.</summary></entry><entry><title type="html">Moving In</title><link href="http://localhost:4000/blog/update/moving-in/" rel="alternate" type="text/html" title="Moving In" /><published>2020-10-28T00:00:00+02:00</published><updated>2020-10-28T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/moving-in</id><content type="html" xml:base="http://localhost:4000/blog/update/moving-in/">&lt;p&gt;I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.&lt;/p&gt;
 
 &lt;p&gt;But main purpose of this “blog” is to make my own work and life better. If it helps someone else - that would be amazing. But we are starting in a small steps.&lt;/p&gt;
 
@@ -17,7 +59,7 @@
   &lt;li&gt;Personal budget - why to do it and how to do it with a simple Google Spreadsheet.&lt;/li&gt;
   &lt;li&gt;Making daily tasks simpler with automations - Shortcuts (iOS), Keyboard Maestro (macOS), AutoHotkey (Windows).&lt;/li&gt;
   &lt;li&gt;and more&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="update" /><summary type="html">I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-10-27T00:00:00+02:00</published><updated>2020-10-27T00:00:00+02:00</updated><id>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-10-27T00:00:00+02:00</published><updated>2020-10-27T00:00:00+02:00</updated><id>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -35,4 +77,4 @@
 
 &lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This was published on 2020-10-27 00:00:00 +0200.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;This was published on 2020-10-27 00:00:00 +0200.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
