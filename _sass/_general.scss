@@ -26,6 +26,14 @@ nav a:hover, nav a:active {
   background-color: #4E4E50;
 }
 
+#container {
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
 #active-page {
   color: #FF000;
   background: #0000FF;
