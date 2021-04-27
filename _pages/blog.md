@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog
 ---
 
-## My Blog Posts
+## My Blog Posts not
 <div class="post-grid">
   {% for post in site.posts %}
   <div class="post-preview-block">
