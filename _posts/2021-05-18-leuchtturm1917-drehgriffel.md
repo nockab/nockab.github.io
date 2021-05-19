@@ -4,7 +4,6 @@ title:  "Leuchtturm1917 Drehgriffel"
 categories: update
 tags: [blog]
 ---
-## Fountain pen love
 
 I fell in love with fountain pens 5 years ago. My first was Lamy Safari, then
 multiple chinese Baoer pens, fountain Parker Jotter and some others.

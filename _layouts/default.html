@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
 </head>
 <body>
   <div class="container">
-    <nav>
-        <ul class="nav-links">
-            <li><a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a></li>
-            <li><a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a></li>
-            <li><a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a></li>
+    <div class="blog">
+      <nav>
+        <ul>
+            <li id="title">nockab</li>
+            <li><a href="/">Blog</a>{% if page.title == "Home" %} ←{% endif %}</li>
+            <!-- <li>Reading log</li> -->
+            <li><a href="/about">About</a>{% if page.title == "About" %} ←{% endif %}</li>
+
+            <!-- <li><a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a></li> -->
             <!-- <li><a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a></li> -->
         </ul>
-    </nav>
-    <main class="page-content">
+      </nav>
+      <main class="main">
         {{ content }}
-    </main>
-    <footer>
-        Powered by <a href="https://pages.github.com">GitHub Pages</a> & <a href="https://jekyllrb.com">Jekyll</a>
-    </footer>
+      </main>
+    </div>
   </div>
 </body>
 </html>
