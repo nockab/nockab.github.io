@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog
 ---
 
-## My Blog Posts
+## Old Blog Post Page

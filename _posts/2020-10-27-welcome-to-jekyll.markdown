@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "[X] Welcome to Jekyll!"
 categories: jekyll update
 tags: [test, jekyll]
 ---

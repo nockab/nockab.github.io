@@ -5,7 +5,7 @@ layout: default
 title: Home
 permalink: /
 ---
-
+## Notes on Life and Personal Productivity
 <div class="post-grid">
   {% for post in site.posts %}
   <div class="post-list-element">

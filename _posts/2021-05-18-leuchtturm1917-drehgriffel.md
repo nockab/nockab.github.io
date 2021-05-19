@@ -14,6 +14,9 @@ whole page can get accidentaly wiped with wet hands.
 So.. 5 years later, here comes the ballpoint.
 
 ## Drehgriffel
+
+![Leuchtturm1917 Drehgriffel Nr.1 Lemon](/assets/20210518_drehgriffel.jpg)
+
 Leuchtturm1917 Drehgriffel is ballpoint pen, that accepts Parker G2 type refills.
 It's on small and light side, but made from metal. It has really nice triangular
 package, that, when opened, reveals nice quote:
