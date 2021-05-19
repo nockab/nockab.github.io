@@ -6,6 +6,12 @@ title: Home
 permalink: /
 ---
 
-# Notes on Personal Productivity {#personal-productivity}
+<div class="post-grid">
+  {% for post in site.posts %}
+  <div class="post-preview-block">
 
-Personal collection of productivity methods, automations, tools, tips and tricks about how to get better in work, personal things, health and life in general.
+  <h4><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></h4>
+  <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+  </div>
+  {% endfor %}
+</div>
