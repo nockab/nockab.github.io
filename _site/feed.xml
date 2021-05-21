@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-07T16:05:31+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Personal Productivity</title><subtitle>Small personal blog about productivity and automation tools with minimalistic approach</subtitle><entry><title type="html">Coloring Walls</title><link href="http://localhost:4000/blog/update/coloring-walls/" rel="alternate" type="text/html" title="Coloring Walls" /><published>2020-12-07T00:00:00+02:00</published><updated>2020-12-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/coloring-walls</id><content type="html" xml:base="http://localhost:4000/blog/update/coloring-walls/">&lt;p&gt;This post is where I check my code and how it updates.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-19T14:43:07+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Personal Productivity</title><subtitle>Small personal blog about productivity and automation tools with minimalistic approach</subtitle><entry><title type="html">Leuchtturm1917 Drehgriffel</title><link href="http://localhost:4000/blog/update/leuchtturm1917-drehgriffel/" rel="alternate" type="text/html" title="Leuchtturm1917 Drehgriffel" /><published>2021-05-18T00:00:00+03:00</published><updated>2021-05-18T00:00:00+03:00</updated><id>http://localhost:4000/blog/update/leuchtturm1917-drehgriffel</id><content type="html" xml:base="http://localhost:4000/blog/update/leuchtturm1917-drehgriffel/">&lt;p&gt;I fell in love with fountain pens 5 years ago. My first was Lamy Safari, then
+multiple chinese Baoer pens, fountain Parker Jotter and some others.
+I like them, but I’m not obsessed. It was (and still is) love but it
+is not mutual. Ink takes a while to dry, it needs good quality paper or it feathers,
+whole page can get accidentaly wiped with wet hands.&lt;/p&gt;
+
+&lt;p&gt;So.. 5 years later, here comes the ballpoint.&lt;/p&gt;
+
+&lt;h2 id=&quot;drehgriffel&quot;&gt;Drehgriffel&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20210518_drehgriffel.jpg&quot; alt=&quot;Leuchtturm1917 Drehgriffel Nr.1 Lemon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Leuchtturm1917 Drehgriffel is ballpoint pen, that accepts Parker G2 type refills.
+It’s on small and light side, but made from metal. It has really nice triangular
+package, that, when opened, reveals nice quote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Writing by hand is thinking on paper. Thoughts grow into words, sentences and pictures.
+Memories become stories. Ideas are transformed into projects. Notes inspire insight,
+We write and understand, learn, see and &lt;strong&gt;think - with the hand.&lt;/strong&gt;”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;refills&quot;&gt;Refills&lt;/h3&gt;
+
+&lt;p&gt;There are many available. Saving this list for personal reference:&lt;/p&gt;
+
+&lt;p&gt;There is the option of oil-based ballpoint ink, hybrid ink, or gel.&lt;/p&gt;
+
+&lt;p&gt;For oil-based ballpoint ink:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Schmidt P900&lt;/li&gt;
+  &lt;li&gt;Monteverde Soft Roll series.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For hybrid ink:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Uni Jetstream SXR-600 Series&lt;/li&gt;
+  &lt;li&gt;Schmidt EasyFlow 9000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a gel refill:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Monteverde capless gel ceramic rollerball&lt;/li&gt;
+  &lt;li&gt;Itoya and OHTO also make a gel also. Both are needle points. The OHTO does not come in a broad point.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="blog" /><summary type="html">I fell in love with fountain pens 5 years ago. My first was Lamy Safari, then multiple chinese Baoer pens, fountain Parker Jotter and some others. I like them, but I’m not obsessed. It was (and still is) love but it is not mutual. Ink takes a while to dry, it needs good quality paper or it feathers, whole page can get accidentaly wiped with wet hands.</summary></entry><entry><title type="html">Blogging Cycle</title><link href="http://localhost:4000/blog/update/blogging-cycle/" rel="alternate" type="text/html" title="Blogging Cycle" /><published>2021-04-27T00:00:00+03:00</published><updated>2021-04-27T00:00:00+03:00</updated><id>http://localhost:4000/blog/update/blogging-cycle</id><content type="html" xml:base="http://localhost:4000/blog/update/blogging-cycle/">&lt;p&gt;Blog posting cycle:&lt;/p&gt;
+
+&lt;p&gt;Blog ideas goes in to idea incubator, where they float, sometimes merge, grow and mature.
+Then they move to post constructor, where they reach their final form and look.
+After that they get imported into blog.&lt;/p&gt;
+
+&lt;p&gt;Sorta. At least should be like so. But not yet.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="blog" /><summary type="html">Blog posting cycle:</summary></entry><entry><title type="html">Coloring Walls</title><link href="http://localhost:4000/blog/update/coloring-walls/" rel="alternate" type="text/html" title="Coloring Walls" /><published>2020-12-07T00:00:00+02:00</published><updated>2020-12-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/coloring-walls</id><content type="html" xml:base="http://localhost:4000/blog/update/coloring-walls/">&lt;p&gt;This post is where I check my code and how it updates.&lt;/p&gt;
 
 &lt;h1 id=&quot;this-should-be-h1&quot;&gt;This should be h1&lt;/h1&gt;
 &lt;h2 id=&quot;and-this-one-is-h2&quot;&gt;And this one is h2&lt;/h2&gt;
@@ -46,20 +96,20 @@
 
 &lt;p&gt;I will use this blog post to keep a list of things I should do to make this place better. And list of future posts that are the reason I’ve started all this again.&lt;/p&gt;
 
-&lt;h1 id=&quot;work-plan-technical&quot;&gt;Work Plan (Technical)&lt;/h1&gt;
+&lt;h2 id=&quot;work-plan-technical&quot;&gt;Work Plan (Technical)&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Finish setting up &lt;a href=&quot;https://www.aleksandrhovhannisyan.com/blog/dev/getting-started-with-jekyll-and-github-pages/#front-matter-defaults&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Work on style-sheets and layouts&lt;/li&gt;
   &lt;li&gt;Add light-dark mode (switchable and automatic)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;writing-plan&quot;&gt;Writing Plan&lt;/h1&gt;
+&lt;h2 id=&quot;writing-plan&quot;&gt;Writing Plan&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Hybrid Productivity System - how I use my notebook and phone to plan my year, weeks and days. Planning, organising, prioritising and doing.&lt;/li&gt;
   &lt;li&gt;Personal budget - why to do it and how to do it with a simple Google Spreadsheet.&lt;/li&gt;
   &lt;li&gt;Making daily tasks simpler with automations - Shortcuts (iOS), Keyboard Maestro (macOS), AutoHotkey (Windows).&lt;/li&gt;
   &lt;li&gt;and more&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-10-27T00:00:00+02:00</published><updated>2020-10-27T00:00:00+02:00</updated><id>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.</summary></entry><entry><title type="html">[X] Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="[X] Welcome to Jekyll!" /><published>2020-10-27T00:00:00+02:00</published><updated>2020-10-27T00:00:00+02:00</updated><id>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
