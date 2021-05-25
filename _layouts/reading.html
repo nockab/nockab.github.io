@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article id="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ reading.title }}</h1>
+    </header>
+    {{ content }}
+    <div class="post-date">{{ reading.date | date: "%b %-d, %Y" }}</div>
+    <!--
+    <ul class="post-categories">
+        {% for category in page.categories %}
+        <li class="post-category">{{ category }}</li>
+        {% endfor %}
+    </ul> -->
+</article>

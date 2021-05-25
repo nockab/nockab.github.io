@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-19T14:43:07+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Personal Productivity</title><subtitle>Small personal blog about productivity and automation tools with minimalistic approach</subtitle><entry><title type="html">Leuchtturm1917 Drehgriffel</title><link href="http://localhost:4000/blog/update/leuchtturm1917-drehgriffel/" rel="alternate" type="text/html" title="Leuchtturm1917 Drehgriffel" /><published>2021-05-18T00:00:00+03:00</published><updated>2021-05-18T00:00:00+03:00</updated><id>http://localhost:4000/blog/update/leuchtturm1917-drehgriffel</id><content type="html" xml:base="http://localhost:4000/blog/update/leuchtturm1917-drehgriffel/">&lt;p&gt;I fell in love with fountain pens 5 years ago. My first was Lamy Safari, then
-multiple chinese Baoer pens, fountain Parker Jotter and some others.
-I like them, but I’m not obsessed. It was (and still is) love but it
-is not mutual. Ink takes a while to dry, it needs good quality paper or it feathers,
-whole page can get accidentaly wiped with wet hands.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-25T15:45:06+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Personal Productivity</title><subtitle>Small personal blog about productivity and automation tools with minimalistic approach</subtitle><entry><title type="html">Leuchtturm1917 Drehgriffel</title><link href="http://localhost:4000/blog/update/leuchtturm1917-drehgriffel/" rel="alternate" type="text/html" title="Leuchtturm1917 Drehgriffel" /><published>2021-05-18T00:00:00+03:00</published><updated>2021-05-18T00:00:00+03:00</updated><id>http://localhost:4000/blog/update/leuchtturm1917-drehgriffel</id><content type="html" xml:base="http://localhost:4000/blog/update/leuchtturm1917-drehgriffel/">&lt;p&gt;I fell in love with fountain pens 5 years ago. My first was Lamy Safari, then multiple Chinese Baoer pens, fountain Parker Jotter, and some others. I like them, but I’m not obsessed. It was (and still is) love but it is not mutual. Ink takes a while to dry, it needs good quality paper or its feathers, the whole page can get accidentally wiped with wet hands.&lt;/p&gt;
 
 &lt;p&gt;So.. 5 years later, here comes the ballpoint.&lt;/p&gt;
 
@@ -10,18 +6,13 @@ whole page can get accidentaly wiped with wet hands.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/20210518_drehgriffel.jpg&quot; alt=&quot;Leuchtturm1917 Drehgriffel Nr.1 Lemon&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Leuchtturm1917 Drehgriffel is ballpoint pen, that accepts Parker G2 type refills.
-It’s on small and light side, but made from metal. It has really nice triangular
-package, that, when opened, reveals nice quote:&lt;/p&gt;
+&lt;p&gt;Leuchtturm1917 Drehgriffel is ballpoint pen, that accepts Parker G2 type refills. It’s on the small and light side but made from metal. It has a nice triangular package, that, when opened, reveals a nice quote:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;“Writing by hand is thinking on paper. Thoughts grow into words, sentences and pictures.
-Memories become stories. Ideas are transformed into projects. Notes inspire insight,
-We write and understand, learn, see and &lt;strong&gt;think - with the hand.&lt;/strong&gt;”&lt;/p&gt;
+  &lt;p&gt;“Writing by hand is thinking on paper. Thoughts grow into words, sentences, and pictures. Memories become stories. Ideas are transformed into projects. Notes inspire insight, We write and understand, learn, see and &lt;strong&gt;think - with the hand.&lt;/strong&gt;”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;refills&quot;&gt;Refills&lt;/h3&gt;
-
 &lt;p&gt;There are many available. Saving this list for personal reference:&lt;/p&gt;
 
 &lt;p&gt;There is the option of oil-based ballpoint ink, hybrid ink, or gel.&lt;/p&gt;
@@ -41,14 +32,24 @@ We write and understand, learn, see and &lt;strong&gt;think - with the hand.&lt;
 &lt;p&gt;For a gel refill:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Monteverde capless gel ceramic rollerball&lt;/li&gt;
-  &lt;li&gt;Itoya and OHTO also make a gel also. Both are needle points. The OHTO does not come in a broad point.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="blog" /><summary type="html">I fell in love with fountain pens 5 years ago. My first was Lamy Safari, then multiple chinese Baoer pens, fountain Parker Jotter and some others. I like them, but I’m not obsessed. It was (and still is) love but it is not mutual. Ink takes a while to dry, it needs good quality paper or it feathers, whole page can get accidentaly wiped with wet hands.</summary></entry><entry><title type="html">Blogging Cycle</title><link href="http://localhost:4000/blog/update/blogging-cycle/" rel="alternate" type="text/html" title="Blogging Cycle" /><published>2021-04-27T00:00:00+03:00</published><updated>2021-04-27T00:00:00+03:00</updated><id>http://localhost:4000/blog/update/blogging-cycle</id><content type="html" xml:base="http://localhost:4000/blog/update/blogging-cycle/">&lt;p&gt;Blog posting cycle:&lt;/p&gt;
+  &lt;li&gt;Itoya and OHTO also make a gel. Both are needle points. The OHTO does not come in a broad point.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="blog" /><summary type="html">I fell in love with fountain pens 5 years ago. My first was Lamy Safari, then multiple Chinese Baoer pens, fountain Parker Jotter, and some others. I like them, but I’m not obsessed. It was (and still is) love but it is not mutual. Ink takes a while to dry, it needs good quality paper or its feathers, the whole page can get accidentally wiped with wet hands.</summary></entry><entry><title type="html">Blogging Cycle</title><link href="http://localhost:4000/blog/update/blogging-cycle/" rel="alternate" type="text/html" title="Blogging Cycle" /><published>2021-04-27T00:00:00+03:00</published><updated>2021-04-27T00:00:00+03:00</updated><id>http://localhost:4000/blog/update/blogging-cycle</id><content type="html" xml:base="http://localhost:4000/blog/update/blogging-cycle/">&lt;p&gt;Blog posting cycle:&lt;/p&gt;
 
-&lt;p&gt;Blog ideas goes in to idea incubator, where they float, sometimes merge, grow and mature.
-Then they move to post constructor, where they reach their final form and look.
-After that they get imported into blog.&lt;/p&gt;
+&lt;p&gt;Blog ideas go into idea incubator, where they float, sometimes merge, grow, and mature.
+Then they move to the post constructor, where they reach their final form and look.
+After that, they get imported into the blog.&lt;/p&gt;
 
-&lt;p&gt;Sorta. At least should be like so. But not yet.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="blog" /><summary type="html">Blog posting cycle:</summary></entry><entry><title type="html">Coloring Walls</title><link href="http://localhost:4000/blog/update/coloring-walls/" rel="alternate" type="text/html" title="Coloring Walls" /><published>2020-12-07T00:00:00+02:00</published><updated>2020-12-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/coloring-walls</id><content type="html" xml:base="http://localhost:4000/blog/update/coloring-walls/">&lt;p&gt;This post is where I check my code and how it updates.&lt;/p&gt;
+&lt;p&gt;Sorta. At least should be like so. But not yet.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="blog" /><summary type="html">Blog posting cycle:</summary></entry><entry><title type="html">Возможно, что так лучше</title><link href="http://localhost:4000/blog/jekyll/update/language/" rel="alternate" type="text/html" title="Возможно, что так лучше" /><published>2020-12-14T00:00:00+02:00</published><updated>2020-12-14T00:00:00+02:00</updated><id>http://localhost:4000/blog/jekyll/update/language</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/language/">&lt;p&gt;Читаю в основном на английском, писать стараюсь так-же. Но писать и говорить сложнее чем потреблять. И для усвоения информации думаю не повредит переварить её на другой язык. Для начала конечно стоит убедится что это будет работать здесь.&lt;/p&gt;
+
+&lt;h1 id=&quot;языки&quot;&gt;Языки&lt;/h1&gt;
+
+&lt;p&gt;Ещё бы авто-коррекция на русский работала бы в Atomе, цены бы ему небыло. Но увы.&lt;/p&gt;
+
+&lt;p&gt;Может можно поставить языковой пакет?&lt;/p&gt;
+
+&lt;p&gt;И ещё надо попробовать что такое (https://obsidian.md)[Obsidian].&lt;/p&gt;
+
+&lt;p&gt;Дата публикации: 2020-12-14 00:00:00 +0200.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">Читаю в основном на английском, писать стараюсь так-же. Но писать и говорить сложнее чем потреблять. И для усвоения информации думаю не повредит переварить её на другой язык. Для начала конечно стоит убедится что это будет работать здесь.</summary></entry><entry><title type="html">[X] Coloring Walls</title><link href="http://localhost:4000/blog/update/coloring-walls/" rel="alternate" type="text/html" title="[X] Coloring Walls" /><published>2020-12-07T00:00:00+02:00</published><updated>2020-12-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/coloring-walls</id><content type="html" xml:base="http://localhost:4000/blog/update/coloring-walls/">&lt;p&gt;This post is where I check my code and how it updates.&lt;/p&gt;
 
 &lt;h1 id=&quot;this-should-be-h1&quot;&gt;This should be h1&lt;/h1&gt;
 &lt;h2 id=&quot;and-this-one-is-h2&quot;&gt;And this one is h2&lt;/h2&gt;
@@ -76,46 +77,9 @@ After that they get imported into blog.&lt;/p&gt;
 
 &lt;p&gt;Atque quos quia rem voluptatum repellendus. Qui quae et et eos suscipit autem rem. Vitae doloribus ex voluptate. Culpa eum qui molestiae optio repudiandae officia qui illum. Qui molestiae unde quos ea.&lt;/p&gt;
 
-&lt;p&gt;Nisi unde et numquam delectus quod modi. Aut iusto aut ratione eos impedit cupiditate rerum earum. Qui necessitatibus dolorem facilis reprehenderit sapiente accusamus. Tempora voluptates debitis similique fugit molestias reprehenderit aliquam.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">This post is where I check my code and how it updates.</summary></entry><entry><title type="html">Yearly Theme</title><link href="http://localhost:4000/blog/update/yearly-theme/" rel="alternate" type="text/html" title="Yearly Theme" /><published>2020-12-03T00:00:00+02:00</published><updated>2020-12-03T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/yearly-theme</id><content type="html" xml:base="http://localhost:4000/blog/update/yearly-theme/">&lt;p&gt;As the year ends it’s time to set up a sailing course for the next 12 months. I’ve become believer in yearly themes, not resolutions, after years of listening to Cortex podcast. Theme does make sense - it shows direction not destination, so you do what you do and try to keep the course.&lt;/p&gt;
+&lt;p&gt;Nisi unde et numquam delectus quod modi. Aut iusto aut ratione eos impedit cupiditate rerum earum. Qui necessitatibus dolorem facilis reprehenderit sapiente accusamus. Tempora voluptates debitis similique fugit molestias reprehenderit aliquam.&lt;/p&gt;
 
-&lt;p&gt;My theme of the New Year will be…&lt;/p&gt;
-
-&lt;h1 id=&quot;2021---year-of-algoritmization&quot;&gt;2021 - Year of Algoritmization&lt;/h1&gt;
-&lt;h2 id=&quot;2020---year-of-focus&quot;&gt;2020 - Year of Focus&lt;/h2&gt;
-&lt;h3 id=&quot;2019---year-of-productivity&quot;&gt;2019 - Year of Productivity&lt;/h3&gt;
-
-&lt;p&gt;This comes from few things.&lt;/p&gt;
-
-&lt;p&gt;I’m finishing Yuval Noah Harari’s book &lt;em&gt;Homo Deus: A Brief History of Tomorrow&lt;/em&gt; and he provides interesting ideas about how we humans, just as every other animal or even plant are acting based on complicated algorithms that are developed inside of us by evolution.&lt;/p&gt;
-
-&lt;p&gt;I’d like to be consistent with my tasks. It could be work related or personal. Writing a procedure for tasks that aren’t done often may result in faster completion in the future. And what is even better - I may even automate it.&lt;/p&gt;
-
-&lt;p&gt;So… First of all I hope that 2021 will be better than 2020 for all of us.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">As the year ends it’s time to set up a sailing course for the next 12 months. I’ve become believer in yearly themes, not resolutions, after years of listening to Cortex podcast. Theme does make sense - it shows direction not destination, so you do what you do and try to keep the course.</summary></entry><entry><title type="html">Moving In</title><link href="http://localhost:4000/blog/update/moving-in/" rel="alternate" type="text/html" title="Moving In" /><published>2020-10-28T00:00:00+02:00</published><updated>2020-10-28T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/moving-in</id><content type="html" xml:base="http://localhost:4000/blog/update/moving-in/">&lt;p&gt;I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.&lt;/p&gt;
-
-&lt;p&gt;But main purpose of this “blog” is to make my own work and life better. If it helps someone else - that would be amazing. But we are starting in a small steps.&lt;/p&gt;
-
-&lt;p&gt;I will use this blog post to keep a list of things I should do to make this place better. And list of future posts that are the reason I’ve started all this again.&lt;/p&gt;
-
-&lt;h2 id=&quot;work-plan-technical&quot;&gt;Work Plan (Technical)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Finish setting up &lt;a href=&quot;https://www.aleksandrhovhannisyan.com/blog/dev/getting-started-with-jekyll-and-github-pages/#front-matter-defaults&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Work on style-sheets and layouts&lt;/li&gt;
-  &lt;li&gt;Add light-dark mode (switchable and automatic)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;writing-plan&quot;&gt;Writing Plan&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hybrid Productivity System - how I use my notebook and phone to plan my year, weeks and days. Planning, organising, prioritising and doing.&lt;/li&gt;
-  &lt;li&gt;Personal budget - why to do it and how to do it with a simple Google Spreadsheet.&lt;/li&gt;
-  &lt;li&gt;Making daily tasks simpler with automations - Shortcuts (iOS), Keyboard Maestro (macOS), AutoHotkey (Windows).&lt;/li&gt;
-  &lt;li&gt;and more&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">I’ve tried multiple times to start a blog. But usually it all ends here - I’m moving in, writing first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somwhere collection of my old writings, so I can re-use them here.</summary></entry><entry><title type="html">[X] Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="[X] Welcome to Jekyll!" /><published>2020-10-27T00:00:00+02:00</published><updated>2020-10-27T00:00:00+02:00</updated><id>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;default-jekyll-welcome&quot;&gt;Default Jekyll Welcome&lt;/h2&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
@@ -127,4 +91,37 @@ After that they get imported into blog.&lt;/p&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This was published on 2020-10-27 00:00:00 +0200.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;This was published on 2020-12-07 00:00:00 +0200.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">This post is where I check my code and how it updates.</summary></entry><entry><title type="html">Yearly Theme</title><link href="http://localhost:4000/blog/update/yearly-theme/" rel="alternate" type="text/html" title="Yearly Theme" /><published>2020-12-03T00:00:00+02:00</published><updated>2020-12-03T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/yearly-theme</id><content type="html" xml:base="http://localhost:4000/blog/update/yearly-theme/">&lt;p&gt;As the year ends it’s time to set up a sailing course for the next 12 months. I’ve become a believer in yearly themes, not resolutions, after years of listening to the Cortex podcast. A theme does make sense - it shows direction not destination, so you do what you do and try to keep the course.&lt;/p&gt;
+
+&lt;p&gt;My theme of the New Year will be…&lt;/p&gt;
+
+&lt;h1 id=&quot;2021---year-of-algoritmization&quot;&gt;2021 - Year of Algoritmization&lt;/h1&gt;
+&lt;h2 id=&quot;2020---year-of-focus&quot;&gt;2020 - Year of Focus&lt;/h2&gt;
+&lt;h3 id=&quot;2019---year-of-productivity&quot;&gt;2019 - Year of Productivity&lt;/h3&gt;
+
+&lt;p&gt;This comes from few things.&lt;/p&gt;
+
+&lt;p&gt;I’m finishing Yuval Noah Harari’s book &lt;em&gt;Homo Deus: A Brief History of Tomorrow&lt;/em&gt; and he provides interesting ideas about how we humans, just as every other animal or even plant are acting based on complicated algorithms that are developed inside of us by evolution.&lt;/p&gt;
+
+&lt;p&gt;I’d like to be consistent with my tasks. It could be work-related or personal. Writing a procedure for tasks that aren’t done often may result in faster completion in the future. And what is even better - I may even automate it.&lt;/p&gt;
+
+&lt;p&gt;So… First of all, I hope that 2021 will be better than 2020 for all of us.&lt;/p&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">As the year ends it’s time to set up a sailing course for the next 12 months. I’ve become a believer in yearly themes, not resolutions, after years of listening to the Cortex podcast. A theme does make sense - it shows direction not destination, so you do what you do and try to keep the course.</summary></entry><entry><title type="html">Moving In</title><link href="http://localhost:4000/blog/update/moving-in/" rel="alternate" type="text/html" title="Moving In" /><published>2020-10-28T00:00:00+02:00</published><updated>2020-10-28T00:00:00+02:00</updated><id>http://localhost:4000/blog/update/moving-in</id><content type="html" xml:base="http://localhost:4000/blog/update/moving-in/">&lt;p&gt;I’ve tried multiple times to start a blog. But usually, it all ends here - I’m moving in, writing the first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somewhere collection of my old writings, so I can re-use them here.&lt;/p&gt;
+
+&lt;p&gt;But the main purpose of this “blog” is to make my work and life better. If it helps someone else - that would be amazing. But we are starting in small steps.&lt;/p&gt;
+
+&lt;p&gt;I will use this blog post to keep a list of things I should do to make this place better. And the list of future posts that are the reason I’ve started all this again.&lt;/p&gt;
+
+&lt;h2 id=&quot;work-plan-technical&quot;&gt;Work Plan (Technical)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Finish setting up &lt;a href=&quot;https://www.aleksandrhovhannisyan.com/blog/dev/getting-started-with-jekyll-and-github-pages/#front-matter-defaults&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Work on style-sheets and layouts&lt;/li&gt;
+  &lt;li&gt;Add light-dark mode (switchable and automatic)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-plan&quot;&gt;Writing Plan&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hybrid Productivity System - how I use my notebook and phone to plan my year, weeks, and days. Planning, organizing, prioritizing and doing.&lt;/li&gt;
+  &lt;li&gt;Personal budget - why to do it and how to do it with a simple Google Spreadsheet.&lt;/li&gt;
+  &lt;li&gt;Making daily tasks simpler with automation - Shortcuts (iOS), Keyboard Maestro (macOS), AutoHotkey (Windows).&lt;/li&gt;
+  &lt;li&gt;and more&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="update" /><category term="test" /><category term="jekyll" /><summary type="html">I’ve tried multiple times to start a blog. But usually, it all ends here - I’m moving in, writing the first couple of posts, then maintaining blog becomes too difficult and it all goes where it came from. I hope, that I have somewhere collection of my old writings, so I can re-use them here.</summary></entry></feed>
