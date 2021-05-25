@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/welcome.png" alt="memoji" width="200"/>
+<img src="/assets/welcome.PNG" alt="memoji" width="200"/>
 ## Hi!
 
 This blog is still in the oven, so there is nowhere to subscribe. I use social sites just for reading and learning something new, so this blog is the only* place where I write.
