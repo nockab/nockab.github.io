@@ -31,5 +31,7 @@ For hybrid ink:
 * Schmidt EasyFlow 9000
 
 For a gel refill:
-* Monteverde capless gel ceramic rollerball
+* Monteverde capless gel ceramic rollerball (using black one for 6 months and this refill is 🔥🔥🔥)
 * Itoya and OHTO also make a gel. Both are needle points. The OHTO does not come in a broad point.
+
+08.11.2021 Updated: Note about Monteverde capless gel ceramic rollerball refill
