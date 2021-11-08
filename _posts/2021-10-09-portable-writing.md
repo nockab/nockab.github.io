@@ -30,6 +30,9 @@ For iPad devices there is nothng better than Apple designed stuff. Unfortunately
 ### Update
 
 From the box keyboards touch pad scroll direction was opposite as on Mac and CMD and Option keys were swapped. Thanks to iPadOS, it was very easy to swap them around:
-```Settings\Keyboard\Hardware keyboard\Modifier keys``ś
+
+```
+Settings\Keyboard\Hardware keyboard\Modifier keys
+```
 
 At first I tried to adapt and re-wire muscle memory – wasn't necessary.
