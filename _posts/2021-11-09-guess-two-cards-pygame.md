@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Guess Two Cards in PyGame Part 1"
+title:  "PyGame: Guess Two Cards pt1"
 categories: dev
 tags: [dev, pygame]
 ---
