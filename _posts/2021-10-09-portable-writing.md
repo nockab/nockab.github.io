@@ -7,7 +7,7 @@ tags: [blog]
 
 ![AirPods Pro, iPad mini, Apple Pencil, ZAGG tri-fold keyboard](/assets/20211009_portable_setup.jpeg)
 
-I was dreaming for it for a long time, to have some kind of miny keyboard that will go with an iPad mini and could be used almost as a regular laptop. I’ve researched a lot of different options, but there were none “ideal” solutions.
+I was dreaming for it for a long time, to have some kind of tiny keyboard that will go with an iPad mini and could be used almost as a regular laptop. I’ve researched a lot of different options, but there were none “ideal” solutions.
 
 When working from home I’ve got used to use iPad mini as my go-to meeting device - Skype, Zoom, MS Teams, whatever. It has good enough camera, connects to AirPods and I can stand it wherever I am. So if it’s multiple hour long meeting, I can freely change locations.
 
