@@ -61,7 +61,7 @@ Result:
 ![PyGame 1](/assets/20211109_pygame1.png)
 
 Code:
-```
+```python
 import pygame
 
 pygame.init()
@@ -86,7 +86,7 @@ Result:
 ![PyGame 2](/assets/20211109_pygame2.png)
 
 Code:
-```
+```python
 import pygame, sys
 
 pygame.init()
@@ -116,7 +116,7 @@ Result:
 ![PyGame 3](/assets/20211109_pygame3.png)
 
 Code:
-```
+```python
 import pygame, sys
 
 pygame.init()
@@ -144,7 +144,7 @@ while 1:
 
 Now with this short loop we can create 4 cards in a row:
 
-```
+```python
 for x in range(4):
         space = (width - (card_width * 4)) / 5
         step_x = space + (card_width + space) * x
@@ -162,7 +162,7 @@ I added spacing calculation, so card are spaced evenly horizontally. Now I can r
 And last thing for today, adding multiple rows!
 
 Code:
-```
+```python
     for y in range(cards_in_a_col):
         v_space = (height - (card_height * cards_in_a_col)) / (cards_in_a_col + 1)
         step_y = v_space + (card_height + v_space) * y
@@ -179,7 +179,7 @@ That's it for today. This is very dirty ugly code, but for beginning I'm proud o
 
 Full today's code:
 
-```
+```python
 import pygame, sys, random
 
 pygame.init()
