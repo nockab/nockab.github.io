@@ -12,7 +12,7 @@ As for project number one, I've picked something that should be simple to make (
 
 It will be 4x4 grid of 16 cards, where all cards are mixed and you have to pic two.
 
-![[20211109_guess-two-cards-pygame.png]]
+![Guess Cards Sketch](/assets/20211109_guess-two-cards-pygame.png)
 
 What I want to achieve by this? Well – creating new project, showing graphics on screen and mouse interactions are my main goal for now.
 
@@ -58,7 +58,7 @@ Creating display is easy, you need to import `pygame` module and create surface 
 Adding rectangle shape was not hard also. It's `pygame.draw.rect(surface, color, pygame.Rect(x,y,width,height))`, adding it to game loop and with `pygame.display.flip()` refresh the screen.
 
 Result:
-![[20211109_pygame1.png]]
+![PyGame 1](/assets/20211109_pygame1.png)
 
 Code:
 ```
@@ -83,7 +83,7 @@ while 1:
 Documentation says that `Rect` has *border_radius* parameter. Let's make card to look more like playing card:
 
 Result:
-![[20211109_pygame2.png]]
+![PyGame 2](/assets/20211109_pygame2.png)
 
 Code:
 ```
@@ -113,7 +113,7 @@ while 1:
 Ok, now I need to add 4 of these in a row. At first I thought that Rect asks for `x0, y0, x1, y1` coordinates. But after few tries to calculate object width and location I found out that it contains left upper corner `x, y` and `width, height` accordingly.
 
 Result:
-![[20211109_pygame3.png]]
+![PyGame 3](/assets/20211109_pygame3.png)
 
 Code:
 ```
@@ -154,10 +154,10 @@ for x in range(4):
 I added spacing calculation, so card are spaced evenly horizontally. Now I can replace hard coded values to variable `cards_in_a_row`.
 
 `cards_in_a_row = 4`:
-![[20211109_pygame4.png]]
+![PyGame 4](/assets/20211109_pygame4.png)
 
 `cards_in_a_row = 7`:
-![[20211109_pygame5.png]]
+![PyGame 5](/assets/20211109_pygame5.png)
 
 And last thing for today, adding multiple rows!
 
@@ -173,6 +173,46 @@ Code:
 ````
 
 Result (also added random colors just for fun):
-![[20211109_pygame6.png]]
+![PyGame 6](/assets/20211109_pygame6.png)
 
 That's it for today. This is very dirty ugly code, but for beginning I'm proud of myself. I could clean it up, but I want to do something more interesting tomorrow – mouse input.
+
+Full today's code:
+
+```
+import pygame, sys, random
+
+pygame.init()
+
+size = width, height = 640, 480
+color1 = 125, 255, 125
+color2 = 125, 125, 255
+
+card_width = 60
+card_height = 90
+card_border_radius = 10
+
+cards_in_a_col = 4
+cards_in_a_row = 7
+
+# Returns random colors every call, just for fun
+def get_color():
+    return random.randint(0,255), random.randint(0,255), random.randint(0,255)
+
+screen = pygame.display.set_mode(size)
+
+# Main loop
+while 1:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT: sys.exit()
+
+    for y in range(cards_in_a_col):
+        v_space = (height - (card_height * cards_in_a_col)) / (cards_in_a_col + 1)
+        step_y = v_space + (card_height + v_space) * y
+        for x in range(cards_in_a_row):
+            space = (width - (card_width * cards_in_a_row)) / (cards_in_a_row + 1)
+            step_x = space + (card_width + space) * x
+            pygame.draw.rect(screen, get_color(), pygame.Rect(step_x, step_y, card_width, card_height), border_radius=10)
+
+    pygame.display.flip()
+```
