@@ -3,7 +3,7 @@ layout: default
 title: Books
 permalink: /books/
 ---
-
+# Book Log
 List updated: 23.07.2023
 
 ## 2023
