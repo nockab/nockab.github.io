@@ -12,6 +12,7 @@ permalink: /reading
   <div class="post-list-element">
     <date>{{ book.date_read | date: "%Y-%m-%d" }}</date>
     <p class="post-preview">{{ book.title | truncate: 57 }}</p>
+    <p>{{ book.author }}</p>
 
     <!-- <small>{{ book.content }}</small> -->
   </div>
