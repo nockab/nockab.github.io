@@ -3,6 +3,7 @@ layout: post
 title:  "Yearly Theme"
 categories: update
 tags: [test, jekyll]
+public: False
 ---
 
 As the year ends it's time to set up a sailing course for the next 12 months. I've become a believer in yearly themes, not resolutions, after years of listening to the Cortex podcast. A theme does make sense - it shows direction not destination, so you do what you do and try to keep the course.
