@@ -16,9 +16,11 @@ Here I will try to collect the best resources supported by people who passed the
 - [Pete Zergers' CISSP Exam Cram](https://www.youtube.com/watch?v=_nyZhYnCNLA)
 - [Test Taking Tips by Gwen Bettwy](https://www.youtube.com/results?search_query=Test+Taking+Tips+by+Gwen+Bettwy)
 
-## Udemy
-- Thor’s CISSP courses on Udemy
-- Adam’s CISSP bootcamp
+## Courses
+- Udemy: Thor’s CISSP courses
+- Udemy: Adam’s CISSP bootcamp
+- ITPro.TV [Certified Information Systems Security Professional - CISSP 2021](https://app.acilearning.com/course/accelerated-cissp-2021/) ($39/mo or $379/year Standard video library without Labs and Tests)
+- Cybrary.it [Certified Information Systems Security Professional (CISSP)](https://app.cybrary.it/browse/course/cissp) (€27 first mo, €55/mo Cybrary Insider Pro subscription)
 
 # Books
 - [Sybex CISSP Official Study Guide](https://www.wiley.com/en-us/%28ISC%292+CISSP+Certified+Information+Systems+Security+Professional+Official+Study+Guide%2C+9th+Edition-p-9781119786238)
