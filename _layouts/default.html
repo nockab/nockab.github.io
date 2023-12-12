@@ -4,22 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
-    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 </head>
 <body>
- <div class="container">
-    <nav>
-      <ul>
-          <li id="title">nockab</li>
-          <li><a href="/">Blog</a>{% if page.title == "Home" %} ←{% endif %}</li>
-          <li><a href="/reading">Reading</a>{% if page.title == "Reading" %} ←{% endif %}</li>
-          <li><a href="/about">About</a>{% if page.title == "About" %} ←{% endif %}</li>
-      </ul>
-    </nav>
-    <main class="main">
-      {{ content }}
-    </main>
-  </div>
+    {{ content }}
 </body>
 </html>
