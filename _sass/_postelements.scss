@@ -1,5 +1,6 @@
 .post-title {
-
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .post-category {
@@ -30,12 +31,16 @@
 
 
 .post-date {
-  margin-top: 20px;
-  font-size: .7rem;
+  font-size: 0.8rem;
+  color: #666;
 }
 
 .post li {
 
+}
+
+.post-list-element {
+  margin-bottom: 20px; /* Adjust spacing as needed */
 }
 
 .highlight {
