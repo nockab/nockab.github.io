@@ -118,6 +118,12 @@ nav li {
   }
 }
 
+@media screen and (min-width: 671px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
 .container {
   display: flex;
 }
