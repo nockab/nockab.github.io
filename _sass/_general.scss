@@ -75,7 +75,6 @@ img {
 }
 
 nav {
-  float: left;
   width: 20%;
   max-width: 130px;
 }
@@ -85,7 +84,6 @@ nav li {
 }
 
 .main {
-  float: left;
   width: 80%;
   max-width: 670px;
 }
@@ -114,8 +112,8 @@ nav li {
 }
 
 .container {
-  padding: 30px 0;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 #title{
