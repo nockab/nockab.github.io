@@ -29,7 +29,7 @@ twitter_username: nockab
 github_username:  nockab
 
 # Build settings
-theme: null
+theme: minima
 plugins:
   - jekyll-feed
 
