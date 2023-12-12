@@ -31,7 +31,10 @@ For hybrid ink:
 * Schmidt EasyFlow 9000
 
 For a gel refill:
-* Monteverde capless gel ceramic rollerball (using black one for 6 months and this refill is 🔥🔥🔥)
+* Monteverde capless gel ceramic rollerball (using black one for 6 months and this refill is 🔥)
+    * **2023:** I liked this ink a lot, but maybe now my handwriting has changed, but this ink has same drawbacks as fountain pen ink – it dries slowly, writes thickly and smudges with water. Leuchtturm is periodically on my EDC pen list, I'm still on second refill of Monteverde 2-pack.
 * Itoya and OHTO also make a gel. Both are needle points. The OHTO does not come in a broad point.
 
-08.11.2021 Updated: Note about Monteverde capless gel ceramic rollerball refill
+#### Updates:
+08.11.2021 Note about Monteverde capless gel ceramic rollerball refill
+12.12.2023 One more update on Monteverde refill ink
