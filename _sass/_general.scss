@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #333;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
@@ -20,15 +20,15 @@ $secondary-color: #2ecc71;
 a {
   color: $primary-color;
   text-decoration: none;
-}
-
-a:link, a:visited {
-  color: #000;
-  text-decoration: none;
 
   &:hover {
     text-decoration: underline;
+    color: darken($primary-color, 10%);
   }
+}
+
+a:visited {
+  color: $primary-color;
 }
 
 em {
