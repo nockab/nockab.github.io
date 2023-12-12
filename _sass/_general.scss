@@ -83,7 +83,6 @@ img {
 }
 
 nav {
-  width: 20%;
   max-width: 130px;
 }
 
@@ -92,8 +91,9 @@ nav li {
 }
 
 .main {
-  width: 80%;
   max-width: 670px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .blog {
@@ -104,17 +104,7 @@ nav li {
 
 @media screen and (max-width: 670px) {
   .container {
-    flex-direction: column;
-  }
-
-  nav, .main {
-    width: 100%;
-    max-width: none;
-  }
-
-  nav {
-    border-bottom: 1px solid #000;
-    margin-bottom: 20px;
+    grid-template-columns: 1fr; /* Single column for smaller screens */
   }
 }
 
@@ -125,7 +115,9 @@ nav li {
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 4fr; /* Adjust the ratio as needed */
+  align-items: start;
 }
 
 #title{
