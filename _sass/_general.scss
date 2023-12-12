@@ -103,26 +103,23 @@ nav li {
 }
 
 @media screen and (max-width: 670px) {
+  .container {
+    flex-direction: column;
+  }
+
   nav, .main {
     width: 100%;
     max-width: none;
   }
+
   nav {
     border-bottom: 1px solid #000;
     margin-bottom: 20px;
   }
 }
 
-@media screen and (min-width: 640px) {
-  a:hover {
-    text-decoration: underline;
-  }
-}
-
 .container {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
 }
 
 #title{
