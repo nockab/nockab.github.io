@@ -118,6 +118,9 @@ nav li {
   display: grid;
   grid-template-columns: 1fr 4fr; /* Adjust the ratio as needed */
   align-items: start;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
 }
 
 #title{
