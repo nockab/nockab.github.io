@@ -108,6 +108,11 @@ nav li {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+
+  nav, .main {
+    grid-column: auto;
+    grid-row: auto;
+  }
 }
 
 /*@media screen and (min-width: 671px) {
