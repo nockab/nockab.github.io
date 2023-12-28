@@ -105,16 +105,17 @@ nav li {
 
 @media screen and (max-width: 670px) {
   .container {
-    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
 }
 
-@media screen and (min-width: 671px) {
+/*@media screen and (min-width: 671px) {
   .container {
     flex-direction: row;
   }
 }
-
+*/
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr; /* Adjust the ratio as needed */
