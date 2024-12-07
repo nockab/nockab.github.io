@@ -1,20 +1,44 @@
 ---
 layout: default
-title: Books
+title: Reading Log
 permalink: /books/
 ---
-# Book Log
-List updated: 23.07.2023
+# Reading Log
+List updated: 2024-12-07
+
+## 2024
+1. The Three-Body Problem *by Cixin Liu*
+2. Animal Farm *by George Orwell*
+3. Dragon's Egg *by Robert L. Forward*
+4. 1986 *by George Orwell*
+5. The Lazarys Heist *by Geoff White*
+6. Project Hail Mary *by Andry Weir* – re-read
+7. A World Without Email *by Cal Newport*
+8. The 4-Hoyr Body *by Timothy Ferriss*
+9. The Hitchhiker's Guide to the Galaxy *by Douglas Adams*
+10. The 4-Hour Work Week *by Timothy Ferriss*
+11. Replay *by Ken Grimwood*
+12. Project Management for the Unofficial Project Manager *by Kory Kogon*
+13. "Surely You're Joking, Mr.Feynman!" *by Richard Feynman*
+14. Indistractable *by Nir Eyal*
+15. Sandworm: A new Era of Cyberwr and the Hunt for Kremlin's Most Dangrous Hackers *by Andy Greenberg*
+16. I Am Pilgrim *by Terry Hayes*
 
 ## 2023
-1. Kingpin *by Kevin Poulsen*
-2. Abundance: The future is better than you think *by Peter Diamandis, Steven Kotler*
-3. Lean Health *by Paul Akers*
-4. 2 Second Lean *by Paul Akers*
-5. Catch and Kill *by Ronan Farrow*
-6. The 12 Week Year *by Brian P. Moran*
-7. What I Talk About When I Talk About Running *by Haruki Murakami*
-8. Make Time: How To Focus On What Matters Every Day *by Jake Knapp and John Zeratsky*
+2. Tomottow, and Tomorrow, and Tomorrow *by Gabrielle Zevin*
+3. How to Take Smart Notes *by Sönke Arhens*
+4. Ready Player Two *by Ernest Cline*
+5. The One Thing *by Gary Keller*
+6. Stories of Your Life and Others *by Ted Chiang*
+7. Four Thousand Weeks: Time Management for Mortals *by Oliver Burkman*
+8. Kingpin *by Kevin Poulsen*
+9. Abundance: The future is better than you think *by Peter Diamandis, Steven Kotler*
+10. Lean Health *by Paul Akers*
+11. 2 Second Lean *by Paul Akers*
+12. Catch and Kill *by Ronan Farrow*
+13. The 12 Week Year *by Brian P. Moran*
+14. What I Talk About When I Talk About Running *by Haruki Murakami*
+15. Make Time: How To Focus On What Matters Every Day *by Jake Knapp and John Zeratsky*
 
 ## 2022
 1. The Art of Intrusion *by Kevin Mitnick*
