@@ -1,47 +1,95 @@
-.post-title {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
 
-.post-category {
-  display: inline-block;
-}
-
-.post-categories {
-  font-size: .7rem;
-}
-
-#post p {
-  margin-bottom: .6rem;
-}
-
-#post h2, h3 {
-  margin-top: 2rem;
-}
-
-#post ul {
-  padding-left: 20px;
-  margin-left: 0px;
-  margin-bottom: .8rem;
-}
-
-.post-grid a {
-
-}
-
-
-.post-date {
-  font-size: 0.8rem;
-  color: #666;
-}
-
-.post li {
-
-}
-
-.post-list-element {
-  margin-bottom: 20px; /* Adjust spacing as needed */
-}
+        .post-list {
+            list-style: none;
+        }
+        
+        .post-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .post-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .post-item:hover {
+            border-color: var(--accent);
+            box-shadow: 0 4px 20px var(--accent-glow);
+            transform: translateY(-2px);
+        }
+        
+        .post-item:hover::before {
+            opacity: 1;
+        }
+        
+        .post-link {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.2s ease;
+        }
+        
+        .post-item:hover .post-link {
+            color: var(--accent);
+        }
+        
+        .post-content {
+            flex: 1;
+        }
+        
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .post-excerpt {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        
+        .post-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 6px;
+            object-fit: cover;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .post-item:hover .post-image {
+            border-color: var(--accent);
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+        
+        .post-date {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-family: monospace;
+        }
 
 .highlight {
   overflow-x:auto;
