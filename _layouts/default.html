@@ -3,23 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}nockab</title>
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 </head>
 <body>
- <div class="container">
-    <nav>
-      <ul>
-          <li id="title">nockab</li>
-          <li><a href="/">Blog</a>{% if page.title == "Home" %} ←{% endif %}</li>
-          <li><a href="/books">Reading Log</a>{% if page.title == "Reading" %} ←{% endif %}</li>
-          <li><a href="/about">About</a>{% if page.title == "About" %} ←{% endif %}</li>
-      </ul>
-    </nav>
-    <main class="main">
-      {{ content }}
-    </main>
-  </div>
+    <div class="container">
+        <header>
+            <div class="site-title">nockab</div>
+            <nav>
+                <ul>
+                    <li><a href="/" {% if page.title == "Home" %}class="active"{% endif %}>Blog</a></li>
+                    <li><a href="/about" {% if page.title == "About" %}class="active"{% endif %}>About</a></li>
+                    <li><button class="theme-toggle" onclick="toggleTheme()">◐</button></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="main">
+            {{ content }}
+        </main>
+        
+        <footer>
+            Notes on Life and Personal Productivity
+        </footer>
+    </div>
+    
+    <script>
+        // Theme management
+        const getPreferredTheme = () => {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                return savedTheme;
+            }
+            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        };
+        
+        const setTheme = (theme) => {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        };
+        
+        const toggleTheme = () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            setTheme(newTheme);
+        };
+        
+        // Initialize theme
+        setTheme(getPreferredTheme());
+        
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) {
+                setTheme(e.matches ? 'light' : 'dark');
+            }
+        });
+    </script>
 </body>
 </html>
