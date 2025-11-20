@@ -1,18 +1,24 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: Home
 permalink: /
 ---
-## Notes on Life and Personal Productivity
-<div class="post-grid">
+
+<ul class="post-list">
   {% for post in site.posts %}
-  {% if post.public == True %}
-  <div class="post-list-element">
-    <a href="{{ post.url }}" class="post-preview">{{ post.title }}</a>
-    <date>{{ post.date | date: "%Y-%m-%d" }}</date>
-  </div>
-  {% endif %}
+    <li class="post-item">
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="" class="post-image">
+      {% endif %}
+      <div class="post-content">
+        <div class="post-header">
+          <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+          <div class="post-date">{{ post.date | date: "%Y.%m.%d" }}</div>
+        </div>
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+      </div>
+    </li>
   {% endfor %}
-</div>
+</ul>
