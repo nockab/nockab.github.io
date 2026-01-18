@@ -69,6 +69,20 @@
             font-size: 0.9rem;
             line-height: 1.6;
         }
+
+.post-item .post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-item .post-date {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-family: monospace;
+}
         
         .post-image {
             width: 120px;
