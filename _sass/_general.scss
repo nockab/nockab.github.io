@@ -59,6 +59,16 @@ header {
   text-shadow: 0 0 20px var(--accent-glow);
 }
 
+.container > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+
 nav {
   display: flex;
   gap: 2rem;
