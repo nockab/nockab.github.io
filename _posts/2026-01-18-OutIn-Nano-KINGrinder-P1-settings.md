@@ -1,5 +1,5 @@
 ---
-title: "OutIn & KINGrinder P1 Espresso settings"
+title: "OutIn Nano & KINGrinder P1 Espresso settings"
 date: 2026-01-18
 excerpt: "I wasted good beans (and patience) dialing this in and this is a simple baseline that can save others (and future-me) from repeating the same mistakes."
 ---
