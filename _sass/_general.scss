@@ -1,13 +1,20 @@
-// Color scheme variables
+/* ==========================================================================
+   general.scss
+   ========================================================================== */
+
+/* Color scheme variables */
 :root {
   --bg: #0a0a0f;
-  --surface: #14141b;        // slightly calmer than before
-  --surface-2: #101017;      // for subtle header backdrop
+  --surface: #14141b;
+  --surface-2: #101017;
   --text: #e7e7ea;
   --text-muted: #a1a1aa;
   --accent: #22d3ee;
-  --border: rgba(255,255,255,0.08);
-  --shadow: 0 10px 30px rgba(0,0,0,0.25);
+  --accent-glow: rgba(34, 211, 238, 0.25);
+  --border: rgba(255, 255, 255, 0.08);
+  --hover: rgba(255, 255, 255, 0.04);
+
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 
   --radius: 14px;
   --radius-sm: 10px;
@@ -20,8 +27,8 @@
   --space-8: 2rem;
   --space-12: 3rem;
 
-  --content: 72ch;   // post width
-  --page: 980px;     // home width
+  --page: 980px;     /* page width for lists/pages */
+  --content: 72ch;   /* comfortable reading width */
 }
 
 [data-theme="light"] {
@@ -31,285 +38,366 @@
   --text: #18181b;
   --text-muted: #6b7280;
   --accent: #0891b2;
-  --border: rgba(0,0,0,0.08);
-  --shadow: 0 12px 28px rgba(0,0,0,0.08);
+  --accent-glow: rgba(8, 145, 178, 0.18);
+  --border: rgba(0, 0, 0, 0.08);
+  --hover: rgba(0, 0, 0, 0.03);
+
+  --shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
 
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Base */
+html {
+  color-scheme: dark;
+}
+
+[data-theme="light"] html,
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
 body {
-  font-family: 'Berkeley Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+  /* Editorial-minimal: system UI for body, mono for code */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.6;
-  transition: background 0.3s ease, color 0.3s ease;
+  line-height: 1.65;
   min-height: 100vh;
+
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
+code,
+pre,
+kbd,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+/* Layout container */
 .container {
-  max-width: 900px;
+  max-width: var(--page);
   margin: 0 auto;
-  padding: 3rem 1.5rem;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 4rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.site-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--text);
-  text-shadow: 0 0 20px var(--accent-glow);
-}
-
-.container > header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 4rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
-}
-
-
-nav {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  
-  ul {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    list-style: none;
-  }
-  
-  a {
-    color: var(--text-muted);
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: all 0.2s ease;
-    position: relative;
-    
-    &:hover {
-      color: var(--accent);
-      text-shadow: 0 0 10px var(--accent-glow);
-    }
-    
-    &.active {
-      color: var(--accent);
-      
-      &::after {
-        content: '←';
-        margin-left: 0.5rem;
-        opacity: 0.7;
-      }
-    }
-  }
-}
-
-.theme-toggle {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  color: var(--text);
-  padding: 0.5rem 0.75rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 0.85rem;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    border-color: var(--accent);
-    box-shadow: 0 0 10px var(--accent-glow);
-  }
+  padding: var(--space-12) var(--space-6);
 }
 
 main {
   min-height: 60vh;
 }
 
+/* Links */
 a {
   color: var(--accent);
   text-decoration: none;
-  transition: color 0.2s ease;
-  
-  &:hover {
-    color: var(--text);
-  }
+  transition: color 0.15s ease;
 }
 
-h1, h2, h3 {
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  line-height: 1.3;
-  font-weight: 600;
+a:hover {
   color: var(--text);
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* --------------------------------------------------------------------------
+   Site header / top nav
+   IMPORTANT: do NOT style all <header>. This targets:
+   - .site-header if you add it
+   - or the first header directly under .container (your suggests)
+   -------------------------------------------------------------------------- */
+
+.site-header,
+.container > header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--space-4) 0;
+  margin-bottom: var(--space-12);
+
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--bg) 80%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.site-title {
+  font-weight: 750;
   letter-spacing: -0.02em;
-  
-  &:first-child {
-    margin-top: 0;
-  }
+  color: var(--text);
+  text-shadow: 0 0 20px var(--accent-glow);
+  font-size: 1.25rem;
 }
 
-h1 {
-  font-size: 2.25rem;
+nav {
+  display: flex;
+  gap: var(--space-6);
+  align-items: center;
 }
 
-h2 {
-  font-size: 1.75rem;
+nav ul {
+  display: flex;
+  gap: var(--space-6);
+  align-items: center;
+  list-style: none;
 }
 
-h3 {
-  font-size: 1.375rem;
+nav a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  position: relative;
+  transition: color 0.15s ease, text-shadow 0.15s ease;
 }
 
-p {
-  margin-bottom: 1rem;
+nav a:hover {
+  color: var(--accent);
+  text-shadow: 0 0 10px var(--accent-glow);
 }
+
+nav a.active {
+  color: var(--accent);
+}
+
+nav a.active::after {
+  content: "←";
+  margin-left: 0.5rem;
+  opacity: 0.7;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.55rem 0.75rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.theme-toggle:hover {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+  box-shadow: 0 0 12px var(--accent-glow);
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------------------
+   Global typography defaults
+   -------------------------------------------------------------------------- */
 
 img {
   max-width: 100%;
   height: auto;
+  border-radius: var(--radius-sm);
 }
 
 hr {
   background: var(--border);
   height: 1px;
   border: 0;
-  margin: 2rem 0;
+  margin: var(--space-8) 0;
 }
 
 blockquote {
-  padding: 1rem 1.5rem;
-  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
   background: var(--surface);
+  border: 1px solid var(--border);
   border-left: 3px solid var(--accent);
-  font-style: italic;
+  border-radius: var(--radius);
   color: var(--text-muted);
 }
 
-footer {
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border);
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-}
+/* --------------------------------------------------------------------------
+   Post page layout + intentional “prose” typography
+   -------------------------------------------------------------------------- */
 
-@media (max-width: 640px) {
-  .container {
-    padding: 2rem 1rem;
-  }
-  
-  header {
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: flex-start;
-  }
-  
-  nav {
-    gap: 1.5rem;
-    flex-wrap: wrap;
-    
-    ul {
-      gap: 1.5rem;
-    }
-  }
-  
-  .site-title {
-    font-size: 1.25rem;
-  }
-  
-  h1 {
-    font-size: 1.875rem;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-  }
-}
 #post {
-  max-width: 72ch;
+  max-width: var(--content);
   margin: 0 auto;
 }
 
+/* Post page header (not the site header) */
 #post .post-header {
-  display: block;
-  margin-bottom: 2rem;
-  padding-bottom: 1.25rem;
+  display: block; /* overrides any flex that might leak in */
+  margin-bottom: var(--space-8);
+  padding-bottom: var(--space-6);
   border-bottom: 1px solid var(--border);
 }
 
 #post .post-title {
   margin: 0;
+  font-weight: 780;
+  letter-spacing: -0.02em;
   line-height: 1.15;
+  font-size: clamp(2rem, 3vw, 2.6rem);
 }
 
 #post .post-date {
-  margin-top: 0.75rem;
+  margin-top: var(--space-3);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Prose rhythm engine: wrap content with <div class="prose">{{ content }}</div>
+   If you don’t add .prose, your content will still render,
+   but .prose is where the “designed” feeling comes from. */
+.prose {
+  font-size: 1.05rem;
+}
+
+/* consistent spacing between blocks */
+.prose > * + * {
+  margin-top: 1rem;
+}
+
+/* Headings (big upgrade vs. ad-hoc margins) */
+.prose h1,
+.prose h2,
+.prose h3 {
+  letter-spacing: -0.02em;
+  color: var(--text);
+  line-height: 1.25;
+}
+
+.prose h2,
+.prose h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose h2 {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 1.55rem;
+}
+
+.prose h3 {
+  font-size: 1.25rem;
+}
+
+/* Paragraphs */
+.prose p {
+  color: var(--text);
+}
+
+/* Lists: reset removed indentation, so we put it back only in prose */
+.prose ul,
+.prose ol {
+  padding-left: 1.25rem;
+}
+
+.prose li + li {
+  margin-top: 0.25rem;
+}
+
+/* Inline code + code blocks */
+.prose code {
+  background: color-mix(in srgb, var(--surface) 85%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.1em 0.35em;
+  font-size: 0.95em;
+}
+
+.prose pre {
+  padding: 1rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow-x: auto;
+  line-height: 1.45;
+}
+
+/* Code inside pre should not look like inline code */
+.prose pre code {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+/* Tables (optional but helpful) */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.prose th,
+.prose td {
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.prose th {
+  color: var(--text);
+  background: color-mix(in srgb, var(--surface-2) 75%, transparent);
+  font-weight: 700;
+}
+
+.prose tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Footnotes / small text */
+.prose small,
+.prose .muted {
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+footer {
+  margin-top: var(--space-12);
+  padding-top: var(--space-8);
+  border-top: 1px solid var(--border);
+  text-align: center;
   color: var(--text-muted);
   font-size: 0.9rem;
 }
 
-/* The magic: consistent vertical rhythm inside post content */
-#post .post-content {
-  > * + * {
-    margin-top: 1rem;
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .container {
+    padding: var(--space-8) var(--space-4);
   }
 
-  h2, h3 {
-    margin-top: 2.5rem;
-    margin-bottom: 0.75rem;
+  .site-header,
+  .container > header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
   }
 
-  h2 {
-    border-top: 1px solid var(--border);
-    padding-top: 1.25rem;
+  nav ul {
+    gap: var(--space-4);
+    flex-wrap: wrap;
   }
 
-  /* Lists need indentation + spacing (your reset removed it) */
-  ul, ol {
-    padding-left: 1.25rem;
-  }
-
-  li + li {
-    margin-top: 0.25rem;
-  }
-
-  /* Code blocks feel better with padding + border */
-  pre {
-    padding: 1rem 1.25rem;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    overflow-x: auto;
-    line-height: 1.45;
-  }
-
-  code {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 0.1em 0.35em;
-    font-size: 0.95em;
-  }
-
-  pre code {
-    border: 0;
-    padding: 0;
-    background: transparent;
+  .prose {
+    font-size: 1rem;
   }
 }
