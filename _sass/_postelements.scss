@@ -8,70 +8,30 @@
   margin: 0;
 }
 
-/* Minimal row-based list item */
+/* List item row */
 .post-item {
-  display: grid;
-  grid-template-columns: 9ch 1fr;
-  gap: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
 
-  padding: 1rem 0;
+  padding: 1.25rem 0;
   border-bottom: 1px solid var(--border);
 }
 
-/* subtle hover intention */
+/* Subtle hover: tiny background + border tint */
 .post-item:hover {
-  border-bottom-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+  background: var(--hover);
 }
 
-/* Date column */
-.post-item .post-date {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-  white-space: nowrap;
-}
-
-/* Content column */
-.post-content {
-  flex: 1;
-}
-
-/* IMPORTANT:
-   This header is ONLY for list items; it will not affect the post page header
-   because it is scoped to .post-item */
-.post-item .post-header {
-  display: block;
-  margin-bottom: 0.25rem;
-}
-
-.post-link {
-  font-size: 1.1rem;
-  font-weight: 720;
-  color: var(--text);
-  text-decoration: none;
-}
-
-.post-link:hover {
-  color: var(--accent);
-  text-shadow: 0 0 10px var(--accent-glow);
-}
-
-.post-excerpt {
-  margin-top: 0.35rem;
-  color: var(--text-muted);
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-/* Optional thumbnail support (if you use .post-image in your templates) */
+/* Optional thumbnail */
 .post-image {
-  width: 120px;
-  height: 120px;
+  width: 96px;
+  height: 96px;
   border-radius: var(--radius-sm);
   object-fit: cover;
   border: 1px solid var(--border);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
   flex-shrink: 0;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .post-item:hover .post-image {
@@ -79,19 +39,77 @@
   box-shadow: 0 0 15px var(--accent-glow);
 }
 
+/* IMPORTANT: scope .post-content to list items only (avoid post page collisions) */
+.post-item .post-content {
+  flex: 1;
+  min-width: 0; /* allows long titles to truncate nicely */
+}
+
+/* Header row inside list item: title left, date right */
+.post-item .post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.post-link {
+  font-size: 1.1rem;
+  font-weight: 720;
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.25;
+
+  /* optional: prevent absurdly long titles from breaking layout */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post-item:hover .post-link {
+  color: var(--accent);
+  text-shadow: 0 0 10px var(--accent-glow);
+}
+
+.post-item .post-date {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.post-excerpt {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 /* Code highlight wrapper (keep) */
 .highlight {
   overflow-x: auto;
 }
 
-/* Mobile: stack date above title */
+/* Mobile: stack header + allow wrapping */
 @media (max-width: 640px) {
   .post-item {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
-  .post-item .post-date {
-    order: -1;
+  .post-image {
+    width: 72px;
+    height: 72px;
+  }
+
+  .post-item .post-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .post-link {
+    white-space: normal;
   }
 }
