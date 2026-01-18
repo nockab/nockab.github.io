@@ -54,9 +54,11 @@ excerpt: "I wasted good beans (and patience) dialing this in and this is a simpl
     - **Stop:** at **40 g** in the cup
     - Put the OutIn into the mug/stand so it doesn’t drip on the table  
 **Optional (Americano):** add ~**80 ml** hot water to the espresso (≈120 ml total).
+
 ## Default 6g basket settings (my baseline)
 - **Dose:** 6 g
 - **Yield:** 18 g
 - **Time:** 30 s
 - **Grind:** 10 clicks from my zero
+
 **Notes:** The default basket can handle a finer grind and still tastes rich, but yields less coffee. If you prefer a longer cup, dilute into an Americano. Depending on beans, I add **40–80 ml** hot water. Milk also works (cappuccino/latte).
