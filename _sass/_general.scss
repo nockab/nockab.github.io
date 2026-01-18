@@ -227,3 +227,75 @@ footer {
     font-size: 1.5rem;
   }
 }
+#post {
+  max-width: 72ch;
+  margin: 0 auto;
+}
+
+#post .post-header {
+  display: block;
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+#post .post-title {
+  margin: 0;
+  line-height: 1.15;
+}
+
+#post .post-date {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* The magic: consistent vertical rhythm inside post content */
+#post .post-content {
+  > * + * {
+    margin-top: 1rem;
+  }
+
+  h2, h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h2 {
+    border-top: 1px solid var(--border);
+    padding-top: 1.25rem;
+  }
+
+  /* Lists need indentation + spacing (your reset removed it) */
+  ul, ol {
+    padding-left: 1.25rem;
+  }
+
+  li + li {
+    margin-top: 0.25rem;
+  }
+
+  /* Code blocks feel better with padding + border */
+  pre {
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow-x: auto;
+    line-height: 1.45;
+  }
+
+  code {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.1em 0.35em;
+    font-size: 0.95em;
+  }
+
+  pre code {
+    border: 0;
+    padding: 0;
+    background: transparent;
+  }
+}
