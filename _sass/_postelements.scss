@@ -1,110 +1,97 @@
+/* ==========================================================================
+   _postelements.scss — post list/index styling
+   ========================================================================== */
 
-        .post-list {
-            list-style: none;
-        }
-        
-        .post-item {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            gap: 1.5rem;
-        }
-        
-        .post-item::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, var(--accent), transparent);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .post-item:hover {
-            border-color: var(--accent);
-            box-shadow: 0 4px 20px var(--accent-glow);
-            transform: translateY(-2px);
-        }
-        
-        .post-item:hover::before {
-            opacity: 1;
-        }
-        
-        .post-link {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--text);
-            text-decoration: none;
-            display: block;
-            margin-bottom: 0.5rem;
-            transition: color 0.2s ease;
-        }
-        
-        .post-item:hover .post-link {
-            color: var(--accent);
-        }
-        
-        .post-content {
-            flex: 1;
-        }
-        
-        .post-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            gap: 1rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .post-excerpt {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            line-height: 1.6;
-        }
-
-.post-item .post-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
+/* Minimal row-based list item */
+.post-item {
+  display: grid;
+  grid-template-columns: 9ch 1fr;
+  gap: 1rem;
+
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+/* subtle hover intention */
+.post-item:hover {
+  border-bottom-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+}
+
+/* Date column */
 .post-item .post-date {
   color: var(--text-muted);
-  font-size: 0.85rem;
-  font-family: monospace;
+  font-size: 0.9rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  white-space: nowrap;
 }
-        
-        .post-image {
-            width: 120px;
-            height: 120px;
-            border-radius: 6px;
-            object-fit: cover;
-            border: 1px solid var(--border);
-            transition: all 0.3s ease;
-            flex-shrink: 0;
-        }
-        
-        .post-item:hover .post-image {
-            border-color: var(--accent);
-            box-shadow: 0 0 15px var(--accent-glow);
-        }
-        
-        .post-date {
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            font-family: monospace;
-        }
 
+/* Content column */
+.post-content {
+  flex: 1;
+}
+
+/* IMPORTANT:
+   This header is ONLY for list items; it will not affect the post page header
+   because it is scoped to .post-item */
+.post-item .post-header {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.post-link {
+  font-size: 1.1rem;
+  font-weight: 720;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.post-link:hover {
+  color: var(--accent);
+  text-shadow: 0 0 10px var(--accent-glow);
+}
+
+.post-excerpt {
+  margin-top: 0.35rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Optional thumbnail support (if you use .post-image in your templates) */
+.post-image {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  border: 1px solid var(--border);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  flex-shrink: 0;
+}
+
+.post-item:hover .post-image {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+  box-shadow: 0 0 15px var(--accent-glow);
+}
+
+/* Code highlight wrapper (keep) */
 .highlight {
-  overflow-x:auto;
+  overflow-x: auto;
+}
+
+/* Mobile: stack date above title */
+@media (max-width: 640px) {
+  .post-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .post-item .post-date {
+    order: -1;
+  }
 }
